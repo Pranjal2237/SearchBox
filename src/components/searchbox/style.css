@@ -1,0 +1,33 @@
+.searchbox{
+    display: flex;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    align-items: center;
+}
+
+.searchbox:hover{
+    background-color: #33333317;
+    cursor: pointer;
+}
+
+.searchbox-logo{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #33333317;
+    border-radius: 50%;
+    justify-content: center;
+}
+
+.searchbox p{
+    font-size: 14px;
+    font-weight: 600;
+    min-width: max-content;
+}
+
+.searchbox p:last-child{
+    font-size: 12px;
+    font-weight: 300;
+}

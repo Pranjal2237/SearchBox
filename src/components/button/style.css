@@ -1,0 +1,28 @@
+.button{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    border-radius: 25px;
+    overflow: hidden;
+    background-color: #3333332b;
+    padding: 5px;
+}
+
+.button-logo{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.button p{
+    font-size: 12px;
+}
+
+.button-logo:hover{
+    background-color: #33333356;
+}
